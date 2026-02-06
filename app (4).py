@@ -1,9 +1,7 @@
 import streamlit as st
 import pickle
 
-# Load model
-with open("sentiment_model.pkl", "rb") as f:
-    model = pickle.load(f)
+
 
 # Page config
 st.set_page_config(
